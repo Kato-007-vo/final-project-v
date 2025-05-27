@@ -1,0 +1,134 @@
+.title{
+    text-align: center;
+}
+.div-holder{
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-areas: 
+    "one one one one one one one one one one one one"
+    "two two two two two two two two two two two two"
+    "mi mi mi mi mi mi mi mi mi mi mi mi"
+    "three three three three three three three three three three three three"
+    "four four four four four four four four four four four four"
+    "five five five five five five five five five five five five"
+    "reflec reflec reflec reflec reflec reflec reflec reflec reflec reflec reflec reflec"
+    "six six six six six six six six six six six six"
+    "mid mid mid mid mid mid mid mid mid mid mid mid"
+    "pro pro pro pro pro pro pro pro pro pro pro pro"
+    "seven seven seven seven eight eight eight eight nine nine nine enineight"
+    "ten ten ten ten eleven eleven eleven eleven twelve twelve twelve twelve"
+    ;
+}
+
+.one{
+   grid-area: one; 
+   padding: 2px 20px 0; 
+   font-size: 25px;
+   line-height: 1.25;
+   text-align: center;
+}
+.two{
+    grid-area: two;
+    height: 25px;
+    border-bottom: solid 1px black;
+}
+.mid{
+    grid-area: mi;
+    height: 25px;
+    border-top: solid 1px black;
+}
+.three{
+    grid-area: three;
+    padding: 0; 
+    font-size: 25px;
+    text-align: center;
+}
+.four{
+    grid-area: four;
+    height: 20px;
+}
+.five{
+    grid-area: five;
+    padding: 2px 20px 0; 
+    font-size: 25px;
+    line-height: 1.25;
+}
+
+.reflection{
+    grid-area: reflec;
+    padding: 2px 20px 0; 
+    font-size: 25px;
+    line-height: 1.25;
+}
+h3{
+    text-align: center;
+}
+.six{
+    grid-area: six;
+    height: 25px;
+    border-bottom: dashed 3px black;
+}
+.middleLine{
+    grid-area: mid;
+    height: 25px;
+    border-top: dashed 3px black;
+}
+.projectSection{
+    grid-area: pro;
+    text-align: center; 
+    font-size: 25px;
+    line-height: 1.25;
+    height: 50px;
+}
+.seven{
+    grid-area: seven;
+    margin: auto;
+    align-items: center;
+    border-right: solid 1px black;
+}
+.eight{
+    grid-area: eight;
+    margin: auto;
+    align-items: center;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+.nine{
+    grid-area: nine;
+    margin: auto;
+    align-items: center;
+    border-left: solid 1px black;
+}
+.ten{
+    grid-area: ten;
+    text-align: center;
+    padding: 2px 20px 0; 
+    font-size: 25px;
+    line-height: 1.25;
+    border-right: solid 1px black;
+}
+.eleven{
+    grid-area: eleven;  
+    text-align: center;
+    padding: 2px 20px 0; 
+    font-size: 25px;
+    line-height: 1.25;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+.twelve{
+    grid-area: twelve;
+    text-align: center;  
+    padding: 2px 20px 0; 
+    font-size: 25px;
+    line-height: 1.25;
+    border-left: solid 1px black;
+}
+body{
+    background: #CBE1EF;
+    margin: 2px;
+}
+img{
+    width: 350px;
+    height: 200px;
+}
