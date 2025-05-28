@@ -7,14 +7,14 @@
     grid-template-areas: 
     "one one one one one one one one one one one one"
     "two two two two two two two two two two two two"
-    "mi mi mi mi mi mi mi mi mi mi mi mi"
     "three three three three three three three three three three three three"
     "four four four four four four four four four four four four"
     "five five five five five five five five five five five five"
+      "cut cut cut cut cut cut cut cut cut cut cut cut"
     "reflec reflec reflec reflec reflec reflec reflec reflec reflec reflec reflec reflec"
-    "six six six six six six six six six six six six"
     "mid mid mid mid mid mid mid mid mid mid mid mid"
     "pro pro pro pro pro pro pro pro pro pro pro pro"
+    "six six six six six six six six six six six six"
     "seven seven seven seven eight eight eight eight nine nine nine enineight"
     "ten ten ten ten eleven eleven eleven eleven twelve twelve twelve twelve"
     ;
@@ -29,13 +29,7 @@
 }
 .two{
     grid-area: two;
-    height: 25px;
-    border-bottom: solid 1px black;
-}
-.mid{
-    grid-area: mi;
-    height: 25px;
-    border-top: solid 1px black;
+    height: 100px;
 }
 .three{
     grid-area: three;
@@ -45,42 +39,64 @@
 }
 .four{
     grid-area: four;
-    height: 20px;
+    height: 50px;
 }
 .five{
     grid-area: five;
     padding: 2px 20px 0; 
     font-size: 25px;
-    line-height: 1.25;
+    line-height: 2;
+    max-height: 600px;
+    max-width: 1000px;
+    border: dashed 2px;
+    border-radius: 5%;
+    background: #e5c6b2;
+    margin: auto;
 }
 
+.cut{
+  height: 100px;
+}
 .reflection{
     grid-area: reflec;
     padding: 2px 20px 0; 
     font-size: 25px;
-    line-height: 1.25;
+    line-height: 2;
+    height: 630px;
+    max-width: 1000px;
+    border: dashed 2px;
+    border-radius: 5%;
+    background: #e5c6b2;
+    margin: auto;
 }
 h3{
     text-align: center;
+    height: 50px;
 }
 .six{
     grid-area: six;
-    height: 25px;
-    border-bottom: dashed 3px black;
+    height: 100px;
+    background: #877f7f;
 }
 .middleLine{
     grid-area: mid;
-    height: 25px;
-    border-top: dashed 3px black;
+    height: 100px;
 }
+
 .projectSection{
     grid-area: pro;
     text-align: center; 
     font-size: 25px;
     line-height: 1.25;
     height: 50px;
+    background: #6c5e5e;
+    color: #fabd20;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
 }
 .seven{
+    background: #877f7f;
+    color: #877f7f;
     grid-area: seven;
     margin: auto;
     align-items: center;
@@ -92,12 +108,16 @@ h3{
     align-items: center;
     border-right: solid 1px black;
     border-left: solid 1px black;
+    background: #877f7f;
+    color: #877f7f;
 }
 .nine{
     grid-area: nine;
     margin: auto;
     align-items: center;
     border-left: solid 1px black;
+    background: #877f7f;
+    color: #877f7f;
 }
 .ten{
     grid-area: ten;
@@ -106,6 +126,7 @@ h3{
     font-size: 25px;
     line-height: 1.25;
     border-right: solid 1px black;
+    background: #877f7f;
 }
 .eleven{
     grid-area: eleven;  
@@ -115,6 +136,7 @@ h3{
     line-height: 1.25;
     border-right: solid 1px black;
     border-left: solid 1px black;
+    background: #877f7f;
 }
 .twelve{
     grid-area: twelve;
@@ -123,12 +145,35 @@ h3{
     font-size: 25px;
     line-height: 1.25;
     border-left: solid 1px black;
+    background: #877f7f;
 }
 body{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
     background: #CBE1EF;
-    margin: 2px;
+    margin: auto;
 }
 img{
     width: 350px;
     height: 200px;
+}
+.projectSection, .seven, .eight, .nine, .ten, .eleven, .twelve{
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+.aten{
+  color: #54eae5;
+}
+.aeleven{
+  color: #75ea54;
+}
+.atwelve{
+  color: #dfea54;
 }
